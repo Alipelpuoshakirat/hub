@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Shakirat
+</title>
+
+<script>
+   // var n = prompt("what is your name");
+   // alert("hello" + n);
+   // console.log(n);
+
+       //var num1 = prompt ("Enter first number");
+      //var num2 = prompt ("enter first number");
+
+     // var sum = num1 + num2;
+
+   //alert(sum);
+   //var firstname = "shakirat";
+  // var lastname ="Ali";
+
+  // alert(firstname + " " + lastname);
+
+    // conditionals
+
+    // var gender = prompt("gender");
+
+    // if(gender == "female") {
+    //   alert ("welcome to the program");
+    // }
+
+   
+
+     function detector(name, year_of_birth, drink)
+    {
+     let min_age = 18;
+     let age = 2020 - year_of_birth;
+
+     if (age < min_age && drink == "beer") {
+       alert("sorry,you are below the minimum age");
+   } else if (drink !="beer") {
+       alert("oya, drink");
+   } else {
+      alert("cheers to beer & life");
+   }
+     }
+
+
+     //let userName = prompt("what is your name");
+     //let year_of_birth = prompt("input year of birth");
+     //let drink = prompt("drink type");
+
+     //detector(userName, year_of_birth, drink);
+
+
+   </script>
+
+
+   <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body>
+  <a href="about.html">
+    About us
+  </a>
+<!-- The h1 represents a header 1 -->
+<h1 class="shaky msg">welcome to my web page</h1>
+<p>
+   this is my first web project. Hurrayyyy
+   </p>
+
+<p class="msg">List of fruits</p>
+<ul>
+
+<li>Mango</li>
+<li>Orange</li>
+<li>Apple</li>
+</ul>
+
+<hr>
+<h1 style="color: red;">About myself</h1>
+  <p>My name is  Ali Pelpuo Shakirat,A level 100 student of the University of Cape Coast.Am a trustworthy and committed person.i am a motivated young girl and as well love motivating people<p/>
+  <p class="msg">These are the things i like</p>
+  <ul>
+  <li>money</li>
+      <li>Advice</li>  
+ <li>hanging out with friends and family</li>
+ <li class="shaky">like eating</li>
+   </ul> 
+   
+   <img src="puppy.jpg" alt="" />
+  
+
+   <br />
+   <br />
+   <br />
+
+   <div id="greetText"></div>
+   <input id="nameInput" type="text" placeholder="enter your name">
+   <button id="greetBtn">Greet!</button> 
+
+
+<script>   
+let btn = document.getElementById("greetBtn");
+
+btn.addEventListener("click", function () {
+     //alert("button clicked");
+
+let msg = document.getElementById("greetText");
+let name = document.getElementById.getElementById("nameInput");
+
+let val = name.value;
+msg.innerText = "Hello, " + val;
+});
+</script>
+</body>
+</html>
+
+
+
